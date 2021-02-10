@@ -4,7 +4,6 @@ import os
 class Config(object):
     DL_LOCATION = os.environ.get("DL_LOCATION", "./leo_phoenix/")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
-    DEVS_EXPO = os.environ.get("DONTKANGTHISPLS", None)
     DB_URI = os.environ.get("DATABASE_URL", None)
     API_HASH = os.environ.get("API_HASH", None)
     API_ID = int(os.environ.get("APP_ID", 6))
