@@ -9,7 +9,7 @@ from broadcast_sql import add_usersid_in_db, already_added, get_all_users
 
 bot = TelegramClient("bot", api_id=Config.API_ID, api_hash=Config.API_HASH)
 UltraBot = bot.start(bot_token=Config.BOT_TOKEN)
-sedpath = "./leo_phoenix/"
+sedpath = "./Devi-l007/"
 if not os.path.isdir(sedpath):
     os.makedirs(sedpath)
 
