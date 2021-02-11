@@ -2,7 +2,7 @@ import os
 
 
 class Config(object):
-    DL_LOCATION = os.environ.get("DL_LOCATION", "./leo_phoenix/")
+    DL_LOCATION = os.environ.get("DL_LOCATION", "./Devi-l007/")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
     DB_URI = os.environ.get("DATABASE_URL", None)
     API_HASH = os.environ.get("API_HASH", None)
