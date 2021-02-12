@@ -39,9 +39,9 @@ async def Devsexpo(event):
     if input_str:
         if ":" in input_str:
                 stark = input_str.split(":", 1)
-            else:
-                await event.reply("**PLEASE ENTER in email:password Format!**")
-                return
+        else:
+          await event.reply("**PLEASE ENTER in email:password Format!**")
+          return
         else:
             await event.reply("**Send Combo in the Email:Pass Format**")
             return
@@ -57,6 +57,7 @@ async def Devsexpo(event):
             await event.reply("`Yay, This is A Hit.`")
         else:
             await event.reply("`So Sad, This is Invalid Account.`")
+        
         
 @UltraBot.on(events.NewMessage(func=lambda e: e.is_private))
 async def real_nigga(event):
