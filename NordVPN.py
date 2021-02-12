@@ -42,9 +42,7 @@ async def Devsexpo(event):
         else:
           await event.reply("**PLEASE ENTER in email:password Format!**")
           return
-        else:
-            await event.reply("**Send Combo in the Email:Pass Format**")
-            return
+
         email = stark[0]
         password = stark[1]
         sedlyf = {"username": email, "password": password}
